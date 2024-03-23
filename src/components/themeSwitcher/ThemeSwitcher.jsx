@@ -1,5 +1,4 @@
 import {useTheme} from "next-themes";
-import { useEffect, useState } from "react";
 import {Switch} from "@nextui-org/react";
 import {MoonIcon} from "./MoonIcon";
 import {SunIcon} from "./SunIcon";

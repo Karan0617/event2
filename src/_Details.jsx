@@ -1,15 +1,3 @@
-// import components
-
-import {
-  AcademicCapIcon,
-  BanknotesIcon,
-  CheckBadgeIcon,
-  ClockIcon,
-  ReceiptRefundIcon,
-  UsersIcon,
-} from "@heroicons/react/24/outline";
-import { light } from "@mui/material/styles/createPalette"
-
 export const navigation = {
   solutions: [
     { name: "Marketing", href: "#" },
@@ -189,23 +177,24 @@ export const fireworksObj = [
     phone: "8058851259",
     address: "Phootakot karauli",
     image: 'https://i.postimg.cc/vHsnmRNG/images.jpg',
+    ratings : 4.2,
   },
   {
     name: "Deepak & Tulsi Fireworks",
     phone: "9166316031",
     address: "Phootakot karauli",
     image: 'https://i.postimg.cc/tCqgf9cn/fire-crackers-b06e2c96-ad7d-11e7-839f-5e4b0d653fbd.webp',
+    ratings : 4.2,
   },
   {
     name: "B.K. Fireworks",
     phone: "8058485861",
     address: "Bhoodara Bazar karauli",
     image: 'https://i.postimg.cc/RF1MsYQT/2020-11-largeimg-456207958.jpg',
+    ratings : 4.2,
   },
 ]
-
 const obj1 = JSON.stringify(fireworksObj)
-console.log(obj1)
 
 export const hotelsObj = [
   {
@@ -215,30 +204,34 @@ export const hotelsObj = [
     address: "Near Govt. College Karauli",
     price: '',
     image: 'https://i.postimg.cc/90RtGGjZ/IMG-20240203-190149.jpg',
+    ratings : 4.2,
   },
   {
     name: "The Karauli Inn",
     email: "thekarauliinn@gmail.com",
-    phone: "9351627742 9351644255",
+    phone: "9351627742",
     address: "Masalpur Chungi Karauli",
     price: '',
     image: 'https://i.postimg.cc/Qt5cCjgJ/IMG20240203200702.jpg',
+    ratings : 4.2,
   },
   {
     name: "Hotel Karauli Ajay",
     email: '',
-    phone: "9024745555 8209531450",
+    ratings : 4.2,
+    phone: "9024745555",
     address: "Private Bus Stand Hindaun Road Karauli",
     price: '',
     image: 'https://i.postimg.cc/yYJsZW3K/aAY.jpg',
   },
   {
     name: "Hotel Krishna",
-    phone: "7464220103 8114407972",
+    phone: "7464220103",
     address: "Near Roadways Bus Stand Karauli",
     price: '',
     image: 'https://i.postimg.cc/XJMyTTMG/IMG-20240206-201738212.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Radha Krishna Guest House",
@@ -247,6 +240,7 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/CK8RHmZF/IMG-20240203-195551.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Royal Hotel",
@@ -255,6 +249,7 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/HngvsZMj/ce56e1a44b6311eabab10242ac110007.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Siddhi Vinayak",
@@ -263,6 +258,7 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/N02d8q75/IMG-20240203-195332.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Krishna Hotel In Karauli",
@@ -271,6 +267,7 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/Wb98Qb5d/IMG20240203194647.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Hotel Raj Palace Karauli",
@@ -279,6 +276,7 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/pTGyP74J/2021-04-28.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Hotel Ras Raj",
@@ -287,6 +285,7 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/bJJNVgrD/9ffd03e4064011ecb9e30a58a9feac02.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Hotel Gopal",
@@ -295,11 +294,10 @@ export const hotelsObj = [
     price: '',
     image: 'https://i.postimg.cc/QMgTZfjf/202209291546103289-3b39b4203fd811ed82560a58a9feac02.jpg',
     email: '',
+    ratings : 4.2,
   },
 ]
-
 const obj2 = JSON.stringify(hotelsObj)
-console.log(obj2)
 
 export const gardensObj = [
   {
@@ -309,6 +307,7 @@ export const gardensObj = [
     price: '',
     image: 'https://i.postimg.cc/1RkwfFbD/IMG-20240204-142457.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Shiv Palace",
@@ -317,6 +316,7 @@ export const gardensObj = [
     price: '',
     image: 'https://i.postimg.cc/Nfn88Vy2/IMG-20240204-135604.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Shree Ji Marriage Garden",
@@ -325,6 +325,7 @@ export const gardensObj = [
     price: '',
     image: 'https://i.postimg.cc/VvnSj72n/IMG-20240204-144805.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Laxmi Marriage Garden",
@@ -332,6 +333,7 @@ export const gardensObj = [
     address: "Near Stadium Karauli",
     price: '',
     image: 'https://i.postimg.cc/R0Scvzy8/IMG-20240204-140421.jpg',
+    ratings : 4.2,
   },
   {
     name: "Radheshyam Farm House",
@@ -339,6 +341,7 @@ export const gardensObj = [
     address: "Holi Khidkiya Karauli",
     price: '',
     image: 'https://i.postimg.cc/7LkK7ccM/Radheshyam.jpg',
+    ratings : 4.2,
   },
   {
     name: "Karauli Garden Inn",
@@ -347,6 +350,7 @@ export const gardensObj = [
     price: '',
     image: 'https://i.postimg.cc/Vkyrkcrg/IMG-20240204-140415.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Rajrani Palace",
@@ -355,6 +359,7 @@ export const gardensObj = [
     price: '',
     image: 'https://i.postimg.cc/FRfkKFZP/IMG-20240204-144131.jpg',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Ashirwad Marriage Garden",
@@ -363,11 +368,10 @@ export const gardensObj = [
     price: '',
     image: 'https://i.postimg.cc/GtKRwGy6/43106317-705459323146248-6374847810868609024-n-15-169061.jpg',
     email: '',
+    ratings : 4.2,
   },
 ]
-
 const obj3 = JSON.stringify(gardensObj)
-console.log(obj3)
 
 export const kiranaObj = [
   {
@@ -377,6 +381,7 @@ export const kiranaObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Dinesh Disposals",
@@ -385,6 +390,7 @@ export const kiranaObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Mukesh Traders",
@@ -393,6 +399,7 @@ export const kiranaObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Purushottam Disposals",
@@ -401,6 +408,7 @@ export const kiranaObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Ashok Trading Company",
@@ -409,11 +417,10 @@ export const kiranaObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
 ]
-
 const obj4 = JSON.stringify(kiranaObj)
-console.log(obj4)
 
 export const cardsprintingObj = [
   {
@@ -423,6 +430,7 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Nagina Printing Press",
@@ -431,6 +439,7 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Shubham Printing Press",
@@ -439,6 +448,7 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Ganesh Printers",
@@ -447,6 +457,7 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Padam Printers",
@@ -455,6 +466,7 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Azad Printing Press",
@@ -463,6 +475,7 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Galaxy Offset",
@@ -471,11 +484,10 @@ export const cardsprintingObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
 ]
-
 const obj5 = JSON.stringify(cardsprintingObj)
-console.log(obj5)
 
 export const lightsObj = [
   {
@@ -485,6 +497,7 @@ export const lightsObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
   },
   {
     name: "Shivam Light & Decoration",
@@ -492,6 +505,7 @@ export const lightsObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
     address: '',
   },
   {
@@ -500,12 +514,11 @@ export const lightsObj = [
     price: '',
     image: '',
     email: '',
+    ratings : 4.2,
     address: '',
   },
 ]
-
 const obj6 = JSON.stringify(lightsObj)
-console.log(obj6)
 
 export const salonsObj = [
   {
@@ -514,6 +527,7 @@ export const salonsObj = [
     address: "barf factory, chatikna karauli",
     price: '',
     image: 'https://i.postimg.cc/CxMwvJzG/istockphoto-1325440885-612x612.jpg',
+    ratings : 4.2,
   },
   {
     name: "priti beauty parlour",
@@ -521,6 +535,7 @@ export const salonsObj = [
     address: "sita badi karauli",
     price: ' 1100-2100',
     image: 'https://i.postimg.cc/fyjhC0sq/istockphoto-1288801785-612x612.jpg',
+    ratings : 4.2,
   },
   {
     name: "vandana beauty parlour",
@@ -528,6 +543,7 @@ export const salonsObj = [
     address: "near ganpati palaza sitabadi ,karauli",
     price: '1100 -5000',
     image: 'https://i.postimg.cc/4NsGdwvD/istockphoto-1224292356-612x612.jpg',
+    ratings : 4.2,
   },
   {
     name: "payal beauty parlour",
@@ -536,6 +552,7 @@ export const salonsObj = [
     address: "city mall sitabadi, karauli ",
     price: '1000-51000',
     image: 'https://i.postimg.cc/9FM9vPRh/IMG-20240204-WA0034.jpg',
+    ratings : 4.2,
   },
   {
     name: "radhika beauty parlour",
@@ -543,6 +560,7 @@ export const salonsObj = [
     address: "city mall sitabadi, karauli",
     price: '1000-3100',
     image: 'https://i.postimg.cc/VN5Hv0VQ/IMG-20240204-WA0005.jpg',
+    ratings : 4.2,
   },
   {
     name: "glam studio",
@@ -550,9 +568,9 @@ export const salonsObj = [
     address: "In front of Indian Oil karauli",
     price: '2000,71000',
     image: 'https://i.postimg.cc/NfmyhNsZ/thumb.jpg',
+    ratings : 4.2,
   }]
 const obj7 = JSON.stringify(salonsObj)
-console.log(obj7)
 
 export const menswearObj = [
   {
@@ -561,6 +579,7 @@ export const menswearObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
   {
     name: "riya sarees",
@@ -568,10 +587,10 @@ export const menswearObj = [
     address: "ganpati plaza,karauli",
     price: '3000-45000',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj8 = JSON.stringify(menswearObj)
-console.log(obj8)
 
 export const womenswearObj = [
   {
@@ -580,6 +599,7 @@ export const womenswearObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
   {
     name: "riya sarees",
@@ -587,6 +607,7 @@ export const womenswearObj = [
     address: "ganpati plaza,karauli",
     price: '3000-45000',
     image: '',
+    ratings : 4.2,
   },
   {
     name: "gomti sares",
@@ -594,6 +615,7 @@ export const womenswearObj = [
     address: "agarsen katla bhure valo ki gali, karauli",
     price: '2500-50000',
     image: '',
+    ratings : 4.2,
   },
   {
     name: "mangalam showroom",
@@ -601,6 +623,7 @@ export const womenswearObj = [
     address: "agarsen katla bhure valo ki gali, karauli",
     price: '3500-35000',
     image: '',
+    ratings : 4.2,
   },
   {
     name: "panihari vesh collection",
@@ -608,10 +631,10 @@ export const womenswearObj = [
     address: "city mall ,karauli",
     price: '2000-40000',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj9 = JSON.stringify(womenswearObj)
-console.log(obj9)
 
 export const nurseriesObj = [
   {
@@ -620,10 +643,10 @@ export const nurseriesObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj10 = JSON.stringify(nurseriesObj)
-console.log(obj10)
 
 export const mareObj = [
   {
@@ -632,10 +655,10 @@ export const mareObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj11 = JSON.stringify(mareObj)
-console.log(obj11)
 
 export const soundsObj = [
   {
@@ -644,10 +667,10 @@ export const soundsObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj12 = JSON.stringify(nurseriesObj)
-console.log(obj12)
 
 export const photographyObj = [
   {
@@ -656,10 +679,10 @@ export const photographyObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj13 = JSON.stringify(photographyObj)
-console.log(obj13)
 
 export const carsObj = [
   {
@@ -668,10 +691,10 @@ export const carsObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj14 = JSON.stringify(carsObj)
-console.log(obj14)
 
 export const cateringsObj = [
   {
@@ -680,7 +703,7 @@ export const cateringsObj = [
     address: "first and secound floor ganpati plaza , karauli",
     price: '',
     image: '',
+    ratings : 4.2,
   },
 ]
 const obj15 = JSON.stringify(cateringsObj)
-console.log(obj15)
