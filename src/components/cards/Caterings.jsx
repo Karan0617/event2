@@ -2,6 +2,7 @@ import React from 'react'
 import { FaStar } from "react-icons/fa";
 import { MdLocationPin } from "react-icons/md";
 import { TbPhoneCall } from "react-icons/tb";
+import { cateringsObj } from '../../_Details';
 
 export default function Caterings() {
     return (
