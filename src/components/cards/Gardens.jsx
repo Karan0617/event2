@@ -20,12 +20,12 @@ export default function Gardens() {
                             return (
                                 <div class="group relative">
                                     <div class="aspect-h-1 aspect-w-1 h-80 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
-                                        <img className='' src={gardens.image} alt="" />
+                                        <img className='object-cover h-full w-full' src={gardens.image} alt=""/>
                                     </div>
                                     <div class="mt-4 flex justify-between">
-                                        <div>
+                                        <div className='max-w-[75%]'>
                                             <h2 className='font-bold text-lg'>{gardens.name}</h2>
-                                            <p class="mt-1 text-md"><MdLocationPin className='inline text-xl text-red-700' />{gardens.address}</p>
+                                            <p class="mt-1 text-sm"><MdLocationPin className='inline text-xl text-red-700' />{gardens.address}</p>
                                             <dd className='mt-1 px-1'>
                                                 <a className="hover:text-green-700 text-green-900 text-md capitalize" href={`tel:+91${gardens.phone}`}>
                                                     <TbPhoneCall className='inline text-lg text-green-700' /> call now
@@ -33,7 +33,7 @@ export default function Gardens() {
                                             </dd>
                                         </div>
                                         <div className=''>
-                                            <p class="text-sm font-medium rounded-md text-white bg-green-800 px-4 pt-1 hover:cursor-not-allowed"><FaStar className='inline text-white pb-1 h-7' /> 4.2</p>
+                                            <p class="text-sm font-medium rounded-md text-white bg-green-800 px-4 pt-1 select-none"><FaStar className='inline text-white pb-1 h-7' /> 4.2</p>
                                         </div>
                                     </div>
                                 </div>

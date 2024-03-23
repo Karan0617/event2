@@ -21,10 +21,10 @@ export default function Fireworks() {
               return (
                 <div class="group relative">
                   <div class="aspect-h-1 aspect-w-1 h-80 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
-                    <img className='' src={fireworks.image} alt="" />
+                    <img className='h-full w-full object-cover' src={fireworks.image} alt="" />
                   </div>
                   <div class="mt-4 flex justify-between">
-                    <div>
+                    <div className='max-w-[75%]'>
                       <h2 className='font-bold text-lg'>{fireworks.name}</h2>
                       <p class="mt-1 text-md"><MdLocationPin className='inline text-xl text-red-700' />{fireworks.address}</p>
                       <dd className='mt-1 px-1'>

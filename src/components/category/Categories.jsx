@@ -14,7 +14,7 @@ function Categories() {
           <div className="mt-3 flow-root">
             <div className="">
               <div className="relative box-content h-80 sm:h-auto overflow-x-auto py-2 xl:overflow-visible">
-                <div className="min-w-screen-xl absolute flex space-x-2 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-6 xl:gap-x-8 gap-8 xl:space-x-0 xl:px-0">
+                <div className="min-w-screen-xl absolute flex space-x-2 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 gap-8 xl:space-x-0 xl:px-0">
                   {categories.map((category) => (
                     <Link
                       key={category.name}

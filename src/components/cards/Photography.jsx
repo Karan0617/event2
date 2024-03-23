@@ -2,33 +2,32 @@ import React from 'react'
 import { FaStar } from "react-icons/fa";
 import { MdLocationPin } from "react-icons/md";
 import { TbPhoneCall } from "react-icons/tb";
-import { salonsObj } from '../../_Details';
+import { photographyObj } from '../../_Details';
 
 
-export default function Salons() {
+export default function Photography() {
     return (
 
         <>
             <div className="">
-
                 <div className="py-10 px-4 sm:py-16 xl:mx-auto xl:max-w-7xl xl:px-8">
                     <div className="px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 xl:px-0">
-                        <h2 className="text-2xl font-bold tracking-tight capitalize">Unisex salons</h2>
+                        <h2 className="text-2xl font-bold tracking-tight capitalize">photography</h2>
                     </div>
 
                     <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 lg:max-w-7xl">
-                        {salonsObj.map((salons) => {
+                        {photographyObj.map((photography) => {
                             return (
                                 <div class="group relative">
                                     <div class="aspect-h-1 aspect-w-1 h-80 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
-                                        <img className='h-full w-full object-cover' src={salons.image} alt="" />
+                                        <img className='h-full w-full object-cover' src={photography.image} alt="" />
                                     </div>
                                     <div class="mt-4 flex justify-between">
                                         <div className='max-w-[75%]'>
-                                            <h2 className='font-bold text-lg capitalize'>{salons.name}</h2>
-                                            <p class="mt-1 text-md capitalize"><MdLocationPin className='inline text-xl text-red-700' />{salons.address}</p>
+                                            <h2 className='font-bold text-lg'>{photography.name}</h2>
+                                            <p class="mt-1 text-md"><MdLocationPin className='inline text-xl text-red-700' />{photography.address}</p>
                                             <dd className='mt-1 px-1'>
-                                                <a className="hover:text-green-700 text-green-900 text-md capitalize" href={`tel:+91${salons.phone}`}>
+                                                <a className="hover:text-green-700 text-green-900 text-md capitalize" href={`tel:+91${photography.phone}`}>
                                                     <TbPhoneCall className='inline text-lg text-green-700' /> call now
                                                 </a>
                                             </dd>

@@ -166,6 +166,21 @@ export const categories = [
     to: 'marecard',
     imageSrc: "https://i.postimg.cc/mZ1RyfC1/mare.png",
   },
+  {
+    name: "Men's Wear",
+    to: 'menswearcard',
+    imageSrc: "https://i.postimg.cc/MG5cXXgw/modern-men-fashion-in-retail-boutique-store-free-photo.jpg",
+  },
+  {
+    name: "Women's Wear",
+    to: 'womenswearcard',
+    imageSrc: "https://i.postimg.cc/8zVmxKv0/main-qimg-2dab21d0d9a6678a4c3dfa4b5fd3ca47-lq.jpg  ",
+  },
+  {
+    name: 'Nurseries',
+    to: 'nurseriescard',
+    imageSrc: "https://i.postimg.cc/qMN2YcS3/Garden-Nursery-1200x625.jpg",
+  },
 ]
 
 export const fireworksObj = [
@@ -173,25 +188,19 @@ export const fireworksObj = [
     name: "S.K Fireworks",
     phone: "8058851259",
     address: "Phootakot karauli",
-    price: '',
-    image: '',
-    email: '',
+    image: 'https://i.postimg.cc/vHsnmRNG/images.jpg',
   },
   {
     name: "Deepak & Tulsi Fireworks",
     phone: "9166316031",
     address: "Phootakot karauli",
-    price: '',
-    image: '',
-    email: '',
+    image: 'https://i.postimg.cc/tCqgf9cn/fire-crackers-b06e2c96-ad7d-11e7-839f-5e4b0d653fbd.webp',
   },
   {
     name: "B.K. Fireworks",
     phone: "8058485861",
     address: "Bhoodara Bazar karauli",
-    price: '',
-    image: '',
-    email: '',
+    image: 'https://i.postimg.cc/RF1MsYQT/2020-11-largeimg-456207958.jpg',
   },
 ]
 
@@ -202,10 +211,10 @@ export const hotelsObj = [
   {
     name: "Hotel Prakash",
     email: "prakashhotel13@gmail.com",
-    phone: "7231080222 7464250586",
+    phone: "7231080222",
     address: "Near Govt. College Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/90RtGGjZ/IMG-20240203-190149.jpg',
   },
   {
     name: "The Karauli Inn",
@@ -213,15 +222,7 @@ export const hotelsObj = [
     phone: "9351627742 9351644255",
     address: "Masalpur Chungi Karauli",
     price: '',
-    image: '',
-  },
-  {
-    name: "Hotel Chetan",
-    email: "chetanhotel@gmail.com",
-    phone: "9929028366",
-    address: "Private Bus Stand Hindaun Road Karauli",
-    price: '',
-    image: '',
+    image: 'https://i.postimg.cc/Qt5cCjgJ/IMG20240203200702.jpg',
   },
   {
     name: "Hotel Karauli Ajay",
@@ -229,22 +230,14 @@ export const hotelsObj = [
     phone: "9024745555 8209531450",
     address: "Private Bus Stand Hindaun Road Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/yYJsZW3K/aAY.jpg',
   },
   {
     name: "Hotel Krishna",
     phone: "7464220103 8114407972",
     address: "Near Roadways Bus Stand Karauli",
     price: '',
-    image: '',
-    email: '',
-  },
-  {
-    name: "Hotel Richa Palace",
-    phone: "9413885760",
-    address: "Collectory Road Near Govt. College Karauli",
-    price: '',
-    image: '',
+    image: 'https://i.postimg.cc/XJMyTTMG/IMG-20240206-201738212.jpg',
     email: '',
   },
   {
@@ -252,7 +245,7 @@ export const hotelsObj = [
     phone: "9694519739 8769589282",
     address: "Opp. Trilok Chand Mathur Stadium Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/CK8RHmZF/IMG-20240203-195551.jpg',
     email: '',
   },
   {
@@ -260,7 +253,7 @@ export const hotelsObj = [
     phone: "7073727144",
     address: "Opp. Hotel Ajay Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/HngvsZMj/ce56e1a44b6311eabab10242ac110007.jpg',
     email: '',
   },
   {
@@ -268,7 +261,7 @@ export const hotelsObj = [
     phone: "9414272043",
     address: "Gulab Bagh Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/N02d8q75/IMG-20240203-195332.jpg',
     email: '',
   },
   {
@@ -276,7 +269,7 @@ export const hotelsObj = [
     phone: "9785756380",
     address: "Masalpur Chungi, Hindaun Road Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/Wb98Qb5d/IMG20240203194647.jpg',
     email: '',
   },
   {
@@ -284,7 +277,7 @@ export const hotelsObj = [
     phone: "8005871045",
     address: "Sikarganj Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/pTGyP74J/2021-04-28.jpg',
     email: '',
   },
   {
@@ -292,7 +285,7 @@ export const hotelsObj = [
     phone: "9664484445",
     address: "GSS Colony Vaishali Nagar Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/bJJNVgrD/9ffd03e4064011ecb9e30a58a9feac02.jpg',
     email: '',
   },
   {
@@ -300,7 +293,7 @@ export const hotelsObj = [
     phone: "7023276015",
     address: "Opp. Govt. College Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/QMgTZfjf/202209291546103289-3b39b4203fd811ed82560a58a9feac02.jpg',
     email: '',
   },
 ]
@@ -314,7 +307,7 @@ export const gardensObj = [
     phone: "9784720762",
     address: "Near Petrol Pump Village Ruggapura Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/1RkwfFbD/IMG-20240204-142457.jpg',
     email: '',
   },
   {
@@ -322,7 +315,7 @@ export const gardensObj = [
     phone: "8005765475",
     address: "Indira Colony In Front Of Kotwali Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/Nfn88Vy2/IMG-20240204-135604.jpg',
     email: '',
   },
   {
@@ -330,7 +323,7 @@ export const gardensObj = [
     phone: "9690871665",
     address: "Near Mahindra Showroom Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/VvnSj72n/IMG-20240204-144805.jpg',
     email: '',
   },
   {
@@ -338,23 +331,21 @@ export const gardensObj = [
     phone: "9530172496",
     address: "Near Stadium Karauli",
     price: '',
-    image: '',
-    email: '',
+    image: 'https://i.postimg.cc/R0Scvzy8/IMG-20240204-140421.jpg',
   },
   {
-    name: "Garg Palace",
-    phone: "9983786964",
-    address: "Hindaun Gate Karauli",
+    name: "Radheshyam Farm House",
+    phone: "9414272030",
+    address: "Holi Khidkiya Karauli",
     price: '',
-    image: '',
-    email: '',
+    image: 'https://i.postimg.cc/7LkK7ccM/Radheshyam.jpg',
   },
   {
     name: "Karauli Garden Inn",
     phone: "8740075371",
     address: "Gulab Bagh Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/Vkyrkcrg/IMG-20240204-140415.jpg',
     email: '',
   },
   {
@@ -362,7 +353,7 @@ export const gardensObj = [
     phone: "7942688271",
     address: "GSS Colony, Vaishali Nagar Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/FRfkKFZP/IMG-20240204-144131.jpg',
     email: '',
   },
   {
@@ -370,7 +361,7 @@ export const gardensObj = [
     phone: "7381828282",
     address: "Vaishali Nagar Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/GtKRwGy6/43106317-705459323146248-6374847810868609024-n-15-169061.jpg',
     email: '',
   },
 ]
@@ -515,3 +506,181 @@ export const lightsObj = [
 
 const obj6 = JSON.stringify(lightsObj)
 console.log(obj6)
+
+export const salonsObj = [
+  {
+    name: "pooja beauty parlour",
+    phone: "8107465561",
+    address: "barf factory, chatikna karauli",
+    price: '',
+    image: 'https://i.postimg.cc/CxMwvJzG/istockphoto-1325440885-612x612.jpg',
+  },
+  {
+    name: "priti beauty parlour",
+    phone: " 9079100735",
+    address: "sita badi karauli",
+    price: ' 1100-2100',
+    image: 'https://i.postimg.cc/fyjhC0sq/istockphoto-1288801785-612x612.jpg',
+  },
+  {
+    name: "vandana beauty parlour",
+    phone: "8209783430",
+    address: "near ganpati palaza sitabadi ,karauli",
+    price: '1100 -5000',
+    image: 'https://i.postimg.cc/4NsGdwvD/istockphoto-1224292356-612x612.jpg',
+  },
+  {
+    name: "payal beauty parlour",
+    instagram: 'mansiimakover',
+    phone: "6376103612",
+    address: "city mall sitabadi, karauli ",
+    price: '1000-51000',
+    image: 'https://i.postimg.cc/9FM9vPRh/IMG-20240204-WA0034.jpg',
+  },
+  {
+    name: "radhika beauty parlour",
+    phone: "7891836834",
+    address: "city mall sitabadi, karauli",
+    price: '1000-3100',
+    image: 'https://i.postimg.cc/VN5Hv0VQ/IMG-20240204-WA0005.jpg',
+  },
+  {
+    name: "glam studio",
+    phone: "9694718125",
+    address: "In front of Indian Oil karauli",
+    price: '2000,71000',
+    image: 'https://i.postimg.cc/NfmyhNsZ/thumb.jpg',
+  }]
+const obj7 = JSON.stringify(salonsObj)
+console.log(obj7)
+
+export const menswearObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+  {
+    name: "riya sarees",
+    phone: "8209625913",
+    address: "ganpati plaza,karauli",
+    price: '3000-45000',
+    image: '',
+  },
+]
+const obj8 = JSON.stringify(menswearObj)
+console.log(obj8)
+
+export const womenswearObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+  {
+    name: "riya sarees",
+    phone: "8209625913",
+    address: "ganpati plaza,karauli",
+    price: '3000-45000',
+    image: '',
+  },
+  {
+    name: "gomti sares",
+    phone: "7737990667",
+    address: "agarsen katla bhure valo ki gali, karauli",
+    price: '2500-50000',
+    image: '',
+  },
+  {
+    name: "mangalam showroom",
+    phone: "9875242147",
+    address: "agarsen katla bhure valo ki gali, karauli",
+    price: '3500-35000',
+    image: '',
+  },
+  {
+    name: "panihari vesh collection",
+    phone: "8058116947",
+    address: "city mall ,karauli",
+    price: '2000-40000',
+    image: '',
+  },
+]
+const obj9 = JSON.stringify(womenswearObj)
+console.log(obj9)
+
+export const nurseriesObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+]
+const obj10 = JSON.stringify(nurseriesObj)
+console.log(obj10)
+
+export const mareObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+]
+const obj11 = JSON.stringify(mareObj)
+console.log(obj11)
+
+export const soundsObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+]
+const obj12 = JSON.stringify(nurseriesObj)
+console.log(obj12)
+
+export const photographyObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+]
+const obj13 = JSON.stringify(photographyObj)
+console.log(obj13)
+
+export const carsObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+]
+const obj14 = JSON.stringify(carsObj)
+console.log(obj14)
+
+export const cateringsObj = [
+  {
+    name: "radharani sari showroom",
+    phone: "9309485546 , 9929849035",
+    address: "first and secound floor ganpati plaza , karauli",
+    price: '',
+    image: '',
+  },
+]
+const obj15 = JSON.stringify(cateringsObj)
+console.log(obj15)
