@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 export default function Maincard({ title, cardname }) {
     return (
         <div className="">
-            <div className="py-10 px-4 sm:py-16 xl:mx-auto xl:max-w-7xl xl:px-8">
+            <div className="py-8 px-4 sm:py-12 xl:mx-auto xl:max-w-7xl xl:px-6">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <h2 className="text-2xl font-bold tracking-tight capitalize"><Link to="/" className='p-1'><IoMdArrowRoundBack className='inline-block' /></Link> {title}</h2>
                 </div>
