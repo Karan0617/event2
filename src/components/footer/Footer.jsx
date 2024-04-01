@@ -2,7 +2,7 @@
 import React from "react";
 
 // import details
-import { navigation } from "../../_Details";
+// import { navigation } from "../../_Details";
 
 export default function Footer() {
   return (

@@ -21,13 +21,13 @@ export default function Maincard({ title, cardname }) {
                                 </div>
                                 <div class="mt-4 flex justify-between">
                                     <div className='max-w-[75%]'>
-                                        <h2 className='font-bold text-lg'>{cards.name}</h2>
-                                        <div className='inline-flex mt-1 justify-evenly text-sm'>
+                                        <h2 className='font-bold text-lg capitalize'>{cards.name}</h2>
+                                        <div className='inline-flex justify-evenly text-sm capitalize'>
                                             <MdLocationPin className='text-xl text-red-700' />
                                             <address>{cards.address}</address>
                                         </div>
-                                        <dd className='py-2 px-3 bg-green-900 text-white hover:bg-green-700 cursor-pointer rounded-lg'>
-                                            <a className="text-md capitalize" href={`tel:+91 ${cards.phone}`}>
+                                        <dd className='py-2 px-1 text-green-600 cursor-pointer rounded-lg'>
+                                            <a className="text-md" href={`tel:+91 ${cards.phone}`}>
                                                 <TbPhoneCall className='inline text-lg' /> {`+91 ${(cards.phone).trim()}`}
                                             </a>
                                         </dd>

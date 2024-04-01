@@ -33,7 +33,7 @@ export default function App() {
         <Route path="fireworkcard" element={<Fireworks categoryName="fireworks" details={fireworksObj}/>} />
         <Route path="grocerycard" element={<Kiranas categoryName="grocery store" details={kiranaObj}/>} />
         <Route path="lightcard" element={<Lights categoryName="lights & decoration" details={lightsObj}/>} />
-        <Route path="carcard" element={<Cars categoryName="cars" details={carsObj}/>} />
+        <Route path="carcard" element={<Cars categoryName="cars & Travels" details={carsObj}/>} />
         <Route path="cardsprintingcard" element={<Cardsprinting categoryName="Cards Printing" details={cardsprintingObj}/>} />
         <Route path="soundscard" element={<Sounds categoryName="DJ & Sounds" details={soundsObj}/>} />
         <Route path="photographycard" element={<Photography categoryName="photography" details={photographyObj}/>} />
@@ -42,7 +42,6 @@ export default function App() {
         <Route path="womenswearcard" element={<Womenswear categoryName="women's wear" details={womenswearObj}/>} />
         <Route path="nurseriescard" element={<Nurseries categoryName="nurseries" details={nurseriesObj}/>} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
