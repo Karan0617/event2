@@ -289,7 +289,7 @@ export const kiranaObj = [
     phone: "9414727578",
     address: "Old Vegetable Market Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/mk0LLTvr/marketing-to-attract-grocery-stores-large.jpg',
     email: '',
     ratings: 4.2,
   },
@@ -298,7 +298,7 @@ export const kiranaObj = [
     phone: "9079968341",
     address: "Food Market Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/T3NgtZwJ/aisle.webp',
     email: '',
     ratings: 4.2,
   },
@@ -307,7 +307,7 @@ export const kiranaObj = [
     phone: "6350546283",
     address: "Bada Baazar Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/VsFS73Z0/impulse-buying-2000-d569eacebb0c48fa8766965d0352151c.jpg',
     email: '',
     ratings: 4.2,
   },
@@ -316,7 +316,7 @@ export const kiranaObj = [
     phone: "8094779373",
     address: "Food Market Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/yYztpvq3/0-6-HCtd-EKP6-Uw-Zi-Gvu.jpg',
     email: '',
     ratings: 4.2,
   },
@@ -325,7 +325,7 @@ export const kiranaObj = [
     phone: "8290440667",
     address: "Food Market Karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/8zQqj0Dw/istockphoto-1152072078-612x612.jpg',
     email: '',
     ratings: 4.2,
   },
@@ -573,11 +573,11 @@ const obj9 = JSON.stringify(womenswearObj)
 
 export const nurseriesObj = [
   {
-    name: "radharani sari showroom",
-    phone: "9309485546",
-    address: "first and secound floor ganpati plaza , karauli",
+    name: "Maa jagdamba nursery",
+    phone: "9660902270",
+    address: "gangapur mod, karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/MH3K7xM7/shri-jagdamba-nursery-ram-bagh-agra-plant-nurseries-33r61jh176-250.jpg',
     ratings: 4.2,
   },
 ]
@@ -597,15 +597,47 @@ const obj11 = JSON.stringify(mareObj)
 
 export const soundsObj = [
   {
-    name: "radharani sari showroom",
-    phone: "9309485546",
-    address: "first and secound floor ganpati plaza , karauli",
+    name: "lata sounds",
+    phone: "9875738564",
+    address: "bhoodara bazar, karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/Vvg44ZmB/3.jpg',
+    ratings: 4.2,
+  },
+  {
+    name: "Kanha sounds",
+    phone: "9875738564",
+    address: "Teen Bad, karauli",
+    price: '',
+    image: 'https://i.postimg.cc/23NkFRn3/balu-dj-sounds-and-lighting-nellore-dj-system-on-hire-gqrzxneakw.avif',
+    ratings: 4.2,
+  },
+  {
+    name: "Ashok sounds",
+    phone: "9875738564",
+    address: "padewa, karauli",
+    price: '',
+    image: 'https://i.postimg.cc/fRKdLBhY/balram-tent-lights-and-dj-sounds-maharajpur-jabalpur-j8acg7x9ao.avif',
+    ratings: 4.2,
+  },
+  {
+    name: "Balaji sounds",
+    phone: "9875738564",
+    address: "vivek vihar, karauli",
+    price: '',
+    image: 'https://i.postimg.cc/Jz4nT89B/pal-dj-sound-1-15-240123-1564643403.jpg',
+    ratings: 4.2,
+  },
+  {
+    name: "Radha Rani sounds",
+    phone: "9875738564",
+    address: "chungi, karauli",
+    price: '',
+    image: 'https://i.postimg.cc/gcsbghdN/channels4-profile.jpg',
     ratings: 4.2,
   },
 ]
-const obj12 = JSON.stringify(nurseriesObj)
+const obj12 = JSON.stringify(soundsObj)
 
 export const photographyObj = [
   {
@@ -641,72 +673,56 @@ export const carsObj = [
     carName: "Dzire, Crysta, Etios, Innova, Ertiga, Verna, Swift",
     phone: "9887951071",
     address: 'Gulab Bagh Karauli',
-  },
-  {
-    name: "Rajeev Travels",
-    carName: "Dzire, Swift, Boloro, Scorpio  ",
-    phone: "9785284537",
-    address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/7YNcHrb9/IMG-20240203-WA0022.jpg"
   },
   {
     name: "Sk Travels",
     carName: "Dzire,Ertiga",
     phone: "9664471705",
     address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/MGfdjCZh/IMG-20240204-WA0023.jpg"
   },
   {
     name: "Lukman Travels",
     carName: "Dzire,Ertiga,Swift",
     phone: "737828158",
     address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/nVGT7YZc/IMG-20240204-WA0017.jpg"
   },
   {
     name: "Jm Travels",
     carName: "Thar, BMW, Fortuner,",
     phone: "9649044141",
     address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/nzk7s2my/BMW-5-Series-Hire-For-Wedding.jpg"
   },
   {
     name: "Avdesh",
     carName: "Swift, Dzire",
     phone: "8619386606",
     address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/fy1bkSH4/Swift-Dzire-Decorated.webp"
   },
   {
     name: "Imran khan",
     carName: "Swift, Innova",
     phone: "8432629203",
     address: 'Gulab Bagh Karauli',
-  },
-  {
-    name: "Raju",
-    carName: "Ertiga, Swift",
-    phone: "9352666814",
-    address: 'Gulab Bagh Karauli',
-  },
-  {
-    name: "Safrati",
-    carName: "Tavera, Van, Wagnor",
-    phone: "9982646022",
-    address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/7YNcHrb9/IMG-20240203-WA0022.jpg"
   },
   {
     name: "Nannan",
     carName: "Ertiga, Scorpio",
     phone: "9982646022",
     address: 'Gulab Bagh Karauli',
-  },
-  {
-    name: "Noor Travels",
-    carName: "AC & Non-Ac Buses, Mini Bus",
-    phone: "9887999874",
-    address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/15JQWq0y/IMG-20240203-WA0027.jpg"
   },
   {
     name: "Golu Travels",
     carName: "Innova",
     phone: "9785715909",
     address: 'Gulab Bagh Karauli',
+    image:"https://i.postimg.cc/Y9WrZCrb/product-500x500.webp"
   },
 ]
 const obj14 = JSON.stringify(carsObj)
@@ -717,7 +733,7 @@ export const cateringsObj = [
     phone: "9929152736",
     address: "teen bad,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/GhM4Sjn2/istockphoto-637765812-612x612.jpg',
     ratings: 4.2,
   },
   {
@@ -725,7 +741,7 @@ export const cateringsObj = [
     phone: "9799918514",
     address: "teen bad,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/RZ4dKDkG/catering-eat-food-wedding-600nw-218687860.webp',
     ratings: 4.2,
   },
   {
@@ -733,7 +749,7 @@ export const cateringsObj = [
     phone: "9690871665",
     address: "teen bad,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/P5s1M4Ww/istockphoto-650655146-612x612.jpg',
     ratings: 4.2,
   },
   {
@@ -741,7 +757,7 @@ export const cateringsObj = [
     phone: "9929598127",
     address: "teen bad,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/dQXJpNSL/Premium-Buffet.webp',
     ratings: 4.2,
   },
   {
@@ -749,7 +765,7 @@ export const cateringsObj = [
     phone: "8502885678",
     address: "teen bad,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/yNWTgKq9/pichaeats-dinner-0070.webp',
     ratings: 4.2,
   },
   {
@@ -757,7 +773,7 @@ export const cateringsObj = [
     phone: "9351026485",
     address: "teen bad,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/pd1gbsbW/38937115-s.webp',
     ratings: 4.2,
   },
   {
@@ -765,7 +781,7 @@ export const cateringsObj = [
     phone: "97785321428",
     address: "chatikna,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/HW6n0Wdh/raleigh-nc-wedding-catering-buffet-themed-e1399415914257.webp',
     ratings: 4.2,
   },
   {
@@ -773,9 +789,8 @@ export const cateringsObj = [
     phone: "8058058801",
     address: "vaishali nagar ,karauli",
     price: '',
-    image: '',
+    image: 'https://i.postimg.cc/G2w2Psj1/catering-nandas-catering-services-foot-setup-1-15-307265-158996365973870.jpg',
     ratings: 4.2,
   },
-
 ]
 const obj15 = JSON.stringify(cateringsObj)
