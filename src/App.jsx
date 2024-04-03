@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Nav from "./components/navbar/Nav";
 import Categories from "./components/category/Categories";
-import Footer from "./components/footer/Footer";
 import Hotels from "./components/cards/Hotels";
 import Gardens from "./components/cards/Gardens";
 import Caterings from "./components/cards/Caterings";
@@ -23,7 +21,6 @@ import { cardsprintingObj, carsObj, cateringsObj, fireworksObj, gardensObj, hote
 export default function App() {
   return (
     <BrowserRouter>
-      <Nav />
       <Routes>
         <Route path="/" element={<Categories />} />
         <Route path="hotelscard" element={<Hotels categoryName="hotels" details={hotelsObj}/>} />
